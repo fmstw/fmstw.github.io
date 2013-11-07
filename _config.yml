@@ -1,0 +1,23 @@
+# General Jekyll Config
+pygments: true
+url: http://fmstw.github.io
+lsi: false
+exclude: [LICENSE, CNAME, README.md, .gitignore]
+permalink: /:year/:month/:day/:title
+
+# Theme customization - please change from the defaults!
+theme:
+  # Color for top bar, links, etc
+  highlight_color: '#3498db'
+
+  # Profile links on the left sidebar, leave blank to ignore
+  social:
+    github: fmstw
+
+  # "Hi, I'm _______"
+  name: 2014 醫學生年會
+  email: fmstw2014@gmail.com
+  tagline: "weak opinions, strongly held"
+
+  # Toggle "Postings are my own" disclaimer in footer
+  show_disclaimer: true

@@ -1,0 +1,12 @@
+---
+layout: default
+title: "標籤"
+---
+{% for tag in site.tags %}
+  <h2>{{ tag[0] }}</h2>
+  <ul class="posts">
+    {% for post in tag[1] %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>    
+    {% endfor %}
+  </ul>
+{% endfor %}
