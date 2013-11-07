@@ -4,7 +4,7 @@ title: 2014 臺灣醫學生年會
 ---
 <h2>{{ page.title }}</h2>
 <div id="home">
-  <h2><i class="icon-bookmark"></i>重要更新</h2>
+  <h2>重要更新</h2>
   <ul class="posts">
     {% for post in site.posts %}
       {% if post.tag == "important" %}
@@ -13,7 +13,7 @@ title: 2014 臺灣醫學生年會
     {% endfor %}
   </ul>
 
-  <h2><i class="icon-bookmark"></i>所有貼文</h2>
+  <h2>所有貼文</h2>
   <ul class="posts">
     {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
