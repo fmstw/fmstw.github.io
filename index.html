@@ -7,7 +7,7 @@ title: 2014 臺灣醫學生年會
 <ul class="posts">
   {% for post in site.posts %}
     {% if post.tag == "important" %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>    
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <span>{{ post.category }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>    
     {% endif %}
   {% endfor %}
 </ul>
@@ -15,7 +15,7 @@ title: 2014 臺灣醫學生年會
 <h2>所有貼文</h2>
 <ul class="posts">
   {% for post in site.posts %}
-  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  <li><span>{{ post.date | date_to_string }}</span> &raquo; <span>{{ post.category }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
 
