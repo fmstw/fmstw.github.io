@@ -1,0 +1,19 @@
+---
+layout: post
+title: 學術活動簡介
+category: 活動內容總覽
+tag: important
+---
+下面是本次年會的活動:<br>
+<ul class="posts">
+  {% for post in site.posts %}
+    {% if post.category == "活動內容" %}
+    <hr>
+    <p>
+    <h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
+    <span>{{ post.date | date_to_string }}</span><br>
+    {{ post.content }}
+    </p>
+    {% endif %}
+  {% endfor %}
+</ul>
