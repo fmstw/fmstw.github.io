@@ -3,20 +3,37 @@ layout: default
 title: 2014 臺灣醫學生年會
 ---
 <h1>{{ page.title }}</h1>
-<h2>重要更新</h2>
+<h2>行前通知</h2>
+<ul class="posts">
+  {% for post in site.posts %}
+    {% if post.category == "行前通知" %}
+    <hr>
+    <p>
+    <h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
+    <span>{{ post.date | date_to_string }}</span><br>
+    {{ post.content }}
+    </p>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<hr>
+<h2><a href={{ BASE_PATH}}/category.html>前往文章列表</a></h2>
+
+<!-- <h2>重要更新</h2>
 <ul class="posts">
   {% for post in site.posts %}
     {% if post.tag == "important" %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <span>{{ post.category }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>    
     {% endif %}
   {% endfor %}
-</ul>
+</ul> -->
 
-<h2>所有貼文</h2>
+<!-- <h2>所有貼文</h2>
 <ul class="posts">
   {% for post in site.posts %}
   <li><span>{{ post.date | date_to_string }}</span> &raquo; <span>{{ post.category }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
-</ul>
+</ul> -->
 
 
