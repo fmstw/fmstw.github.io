@@ -14,9 +14,12 @@
   <link rel="shortcut icon" href="/favicon.png">
   <link rel="alternate" type="application/rss+xml" title="{{ site.theme.name }}" href="{{site.url}}/atom.xml" />
   <link rel="stylesheet" href="/assets/css/all.css">
-  <link href="/assets/css/coolMenu.css" rel="stylesheet" type="text/css" media="screen"/>
+
+  <link rel='stylesheet' type='text/css' href='/assets/css/styles.css' />
+  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+<!--  <link href="/assets/css/coolMenu.css" rel="stylesheet" type="text/css" media="screen"/>
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.min.css">
-  <script type="text/javascript" src="/assets/js/modernizr-1.6.min.js"></script>
+  <script type="text/javascript" src="/assets/js/modernizr-1.6.min.js"></script>-->
 </head>
 <body>
   <div class="container">
@@ -27,19 +30,20 @@
     <div class="eleven columns content">
 
       <h4>
-      <ul id="coolMenu">
-	<li><a href="/index.html">首頁</a></li>
-        <li><a href="/register.html">報名頁面</a></li>
-	<li><a href="/schedule.html">行程表</a></li>
-	<li>
-	  <a href="/about.html">關於年會</a>
+	<div id='cssmenu'>
 	  <ul>
-	    <li><a href="#">活動地點</a></li>
-	    <li><a href="#">關於2014年會</a></li>
-	    <li><a href="#">關於臺灣醫學生聯盟</a></li>
+	    <li class='active'><a href='/index.html'><span>首頁</span></a></li>
+	    <li class='active'><a href='/register.html'><span>報名頁面</span></a></li>
+	    <li class='active'><a href='/schedule.html'><span>行程表</span></a></li>
+            <li class='has-sub'><a href='/about.html'><span>關於年會</span></a>
+	      <ul>
+		<li><a href='#'><span>2014年會介紹</span></a></li>
+		<li><a href='#'><span>活動地點</span></a></li>
+		<li class='last'><a href='#'><span>執行團隊</span></a></li>
+	      </ul>
+	    </li>
 	  </ul>
-	</li>
-      </ul>
+	</div>
       </h4>
       <!--<h4>
 	<a href="/index.html">首頁&nbsp;</a>
@@ -55,7 +59,7 @@
       </div>
     </div>
   </div>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-<script type="text/javascript" src="/assets/js/scripts.js"></script>
+<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/js/scripts.js"></script> -->
 </body>
 </html>
