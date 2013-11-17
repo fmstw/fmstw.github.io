@@ -1,0 +1,15 @@
+---
+layout: default
+title: "主辦單位"
+---
+<h2><i class="icon-bookmark"></i>主辦單位</h2>
+底下是關於本次年會四個主辦單位的簡介<br>
+<p>
+<ul class="posts">
+  {% for post in site.posts %}
+    {% if post.category == "主辦單位" %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+</p>
