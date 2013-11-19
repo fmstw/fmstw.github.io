@@ -4,13 +4,19 @@ title: "報名頁面"
 ---
 <h2>{{ page.title }}</h2>
 <p>
-請到這裏填寫報名：<a href=http://fmstw.github.io>Google Forms</a>
+<h3>流程</h3>
+<ol>
+  <li>請點右方鏈接下載報名表：<a href=/assets/form.docx>報名表</a>
+  <li>將填寫完的報名表寄至 fmstw2014@gmail.com
+  <li>資訊組將會回信確認收到報名表，同時回覆<a href="http://fmstw.github.io/2013/11/19/remit/">匯款資訊</a>
+  <li>財務組收到匯款後，會更新已確認報名列表，亦會通知您報名成功！</li>
+</ol>
 </p>
-底下是最新報名資訊：
-<ul class="posts">
+<h3>即時更新報名結果</h3>
+<!--<ul class="posts">
   {% for post in site.posts %}
-    {% if post.category == "報名資訊" %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>    
+    {% if post.tags == "register" %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <span>{{ post.category }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>    
     {% endif %}
   {% endfor %}
-</ul>
+</ul> -->
