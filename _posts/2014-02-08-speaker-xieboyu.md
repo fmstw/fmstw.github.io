@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "工作坊演講：謝博宇"
-category: "工作坊"
+title: "國際參與實踐論壇講者：謝博宇"
+category: "國際參與實踐論壇"
 tag: speaker
 ---
 ![謝博宇](/assets/xieboyu)
