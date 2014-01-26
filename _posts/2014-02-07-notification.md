@@ -10,6 +10,8 @@ tag: important
 ##壹、 活動分組連結(重要!!!)  
 2014 臺灣醫學生年會活動中，工作坊與義診將分成不同組別進行活動，煩請大家點入以下**[連結](https://docs.google.com/forms/d/1Mxdzj92fnTd9_S50JUsun5fqM6gIZAD5HYFYYlVeq-8/viewform)**，填寫各組別的志願序。我們將會參考大家的意願分配志願，但若某組別人數過多，則會以抽籤安排，請大家見諒。
 
+另外，人權和平工作坊提供了一份 [Mini Action 事前閱讀](http://fmstw.github.io/2014/02/08/principle-of-outbreak-investigation/)。
+
 ##貳、活動行程表  
 請參考[官網行程表頁面](http://fmstw.github.io/schedule.html)
 
@@ -24,7 +26,7 @@ tag: important
 活動信箱：
 fmstw2014@gmail.com
 
-活動聯絡人：
+活動聯絡人：  
 中國醫學 吳怡潔 0986191923  
 中國後中 林芳竹 0911872089  
 中國中醫 蔡明兌 0983696356  
